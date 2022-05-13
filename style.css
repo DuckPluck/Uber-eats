@@ -117,6 +117,10 @@ header .container img {
   margin: 56px 0px 56px 0px;
   padding: 0%;
 }
+.search_block {
+  padding-left: 8px;
+  padding-right: 8px;
+}
 
 
 /*RESTAURANT CARDS*/
@@ -125,8 +129,8 @@ header .container img {
   width: 100%;
 }
 .rest_cards {
-  margin-left: -8px;
-  margin-right: -8px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .rest_cards h1 {
   font-weight: normal;
