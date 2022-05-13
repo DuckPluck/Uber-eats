@@ -1,8 +1,4 @@
 /*MAIN CONTENT*/
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
 body {
   margin: 0;
   font-family: Roboto, serif;
@@ -517,7 +513,7 @@ footer h5 {
   margin-left: 16px;
 }
 .food_cards {
-  margin: 0 -8px 0 -8px;
+  margin: 0 0px 0 0px;
   padding: 0 8px 0 8px;
 }
 .food_cards .container {
