@@ -28,13 +28,12 @@ header {
   display: flex;
   align-items: center;
 }
-.space_under_header {
+.space-under-header {
   height: 73px;
 }
 header a {
   display: flex;
   align-items: center;
-  margin-left: 0px;
 }
 header .row {
   display: flex;
@@ -47,14 +46,14 @@ header .row {
     padding: 0 16px 0 16px;
   }
 
-  .header_log_in {
+  .header-log-in {
     margin: 8px;
   }
 }
 
 
 
-.header_buttons {
+.header-buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,33 +77,33 @@ header button:hover {
 header .container img {
   margin-left: 0;
 }
-.header_basket {
+.header-basket {
   margin-left: 0;
   display: none;
   height: 40px;
   border: 1px solid #fff;
 }
-.header_basket:hover {
+.header-basket:hover {
   background-color: rgba(117,117,117,0.04);
   border: 1px solid #e0e0e0;
 }
 
 @media (min-width: 768px) {
-  .header_basket {
+  .header-basket {
     margin-left: 0;
     display: flex;
   }
 }
 
 @media (min-width: 768px) {
-  .header_basket {
+  .header-basket {
     margin-left: 0;
     display: flex;
   }
 }
 /*SEARCH*/
 
-.search_block input {
+.search-block input {
   width: 100%;
   border: none;
   border-bottom: 1px solid #979797;
@@ -112,12 +111,12 @@ header .container img {
   opacity: 0.5;
   outline: none;
 }
-.search_block form {
+.search-block form {
   width: 100%;
   margin: 56px 0px 56px 0px;
   padding: 0%;
 }
-.search_block {
+.search-block {
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -125,36 +124,36 @@ header .container img {
 
 /*RESTAURANT CARDS*/
 
-.rest_card img {
+.rest-card img {
   width: 100%;
 }
-.rest_cards {
+.rest-cards {
   margin-left: 0px;
   margin-right: 0px;
 }
-.rest_cards h1 {
+.rest-cards h1 {
   font-weight: normal;
   font-size: 28.6px;
   margin-top: 0;
   margin-bottom: 16px;
 }
-.rest_card {
+.rest-card {
   font-weight: normal;
 }
-.rest_card_inner:hover {
+.rest-card-inner:hover {
   background-color: rgba(117,117,117,0.04);
 }
-.rest_card h1 {
+.rest-card h1 {
   font-size: 20px;
   margin: 16px 0 4px 0;
 }
-.rest_card h2 {
+.rest-card h2 {
   font-size: 17.5px;
   color: #626262;
   margin: 0 0 4px 0;
   font-weight: normal;
 }
-.rest_card h3 {
+.rest-card h3 {
   font-size: 17px;
   margin: 0 0 20px 0;
   font-weight: normal;
@@ -184,10 +183,10 @@ footer {
   }
 }
 
-footer .footer_logo img {
+footer .footer-logo img {
   margin: 56px 0 15px 0;
 }
-footer .footer_mobileApp_container {
+footer .footer-mobileApp-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -197,7 +196,7 @@ footer .footer_mobileApp_container {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-footer .footer_mobileApp_container img {
+footer .footer-mobileApp-container img {
   width: 100%;
 }
 footer .mobileApp {
@@ -259,7 +258,7 @@ footer h5 {
 
 /* RESTAURANT TITLE */
 
-.restrant_title {
+.restrant-title {
   background: url(img/title_background_w320.png);
   background-size: cover;
   width: 100%;
@@ -267,7 +266,7 @@ footer h5 {
   display: flex;
   align-items: center;
 }
-.restrant_title h1 {
+.restrant-title h1 {
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
@@ -275,7 +274,7 @@ footer h5 {
   margin-bottom: 40px;
   text-align: center;
 }
-.restrant_title h2 {
+.restrant-title h2 {
   font-weight: normal;
   font-size: 13.5px;
   color: #626262;
@@ -292,7 +291,7 @@ footer h5 {
   font-size: 13px;
   border-radius: 16px;
 }
-.restrant_title_card {
+.restrant-title-card {
   background-color: #ffffff;
   height: 180px;
   padding: 24px 38px 24px 38px;
@@ -302,10 +301,10 @@ footer h5 {
   align-items: center;
   margin-top: 160px;
 }
-.restrant_title .container {
+.restrant-title .container {
   width: 99%;
 }
-.restrant_title_card_bottom {
+.restrant-title-card-bottom {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -313,7 +312,7 @@ footer h5 {
 }
 
 @media (min-width: 768px) {
-  .restrant_title {
+  .restrant-title {
     background: url(img/title_background_w768.png);
     background-size: cover;
     width: 100%;
@@ -321,14 +320,14 @@ footer h5 {
     display: flex;
     align-items: center;
   }
-  .restrant_title h1 {
+  .restrant-title h1 {
     font-weight: normal;
     font-size: 35px;
     margin-top: 0;
     margin-bottom: 62px;
     text-align: center;
   }
-  .restrant_title_card {
+  .restrant-title-card {
     background-color: #ffffff;
     height: 204px;
     padding: 38px 38px 38px 38px;
@@ -339,16 +338,16 @@ footer h5 {
     margin-top: 131px;
     margin-bottom: 131px;
   }
-  .restrant_title .container {
+  .restrant-title .container {
     width: 960px;
   }
-  .restrant_title_card_bottom {
+  .restrant-title-card-bottom {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     width: 475px;
   }
-  .restrant_title h2 {
+  .restrant-title h2 {
     font-weight: normal;
     font-size: 13.5px;
     color: #626262;
@@ -358,7 +357,7 @@ footer h5 {
 }
 
 @media (min-width: 1200px) {
-  .restrant_title {
+  .restrant-title {
     background: url(img/title_background.png);
     background-size: cover;
     width: 100%;
@@ -366,14 +365,14 @@ footer h5 {
     display: flex;
     align-items: center;
   }
-  .restrant_title h1 {
+  .restrant-title h1 {
     font-weight: normal;
     font-size: 35px;
     margin-top: 0;
     margin-bottom: 62px;
     text-align: center;
   }
-  .restrant_title_card {
+  .restrant-title-card {
     background-color: #ffffff;
     height: 204px;
     padding: 38px 38px 38px 38px;
@@ -384,15 +383,15 @@ footer h5 {
     margin-top: 131px;
     margin-bottom: 131px;
   }
-  .restrant_title .container {
+  .restrant-title .container {
     width: 1168px;
   }
-  .restrant_title_card_bottom {
+  .restrant-title-card-bottom {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
   }
-  .restrant_title h2 {
+  .restrant-title h2 {
     font-weight: normal;
     font-size: 13.5px;
     color: #626262;
@@ -449,11 +448,11 @@ footer h5 {
 
 /* FOOD CARDS */
 
-.food_card_fonts {
+.food-card-fonts {
   font-weight: normal;
   font-size: 17.5px;
 }
-.food_cards h1 {
+.food-cards h1 {
   font-weight: normal;
   font-size: 22px;
   line-height: 34px;
@@ -461,13 +460,13 @@ footer h5 {
   margin-bottom: 12px;
   text-align: center;
 }
-.food_cards hr {
+.food-cards hr {
   display: block;
   width: 50px;
   margin-bottom: 43px;
 }
 @media (min-width: 768px) {
-  .food_cards h1 {
+  .food-cards h1 {
     font-weight: normal;
     font-size: 22px;
     line-height: 34px;
@@ -475,13 +474,13 @@ footer h5 {
     margin-bottom: 32px;
     text-align: start;
   }
-  .food_cards hr {
+  .food-cards hr {
     display: none;
   }
 }
 
 @media (min-width: 1200px) {
-  .food_cards h1 {
+  .food-cards h1 {
     font-weight: normal;
     font-size: 22px;
     line-height: 34px;
@@ -489,19 +488,19 @@ footer h5 {
     margin-bottom: 32px;
     text-align: start;
   }
-  .food_cards hr {
+  .food-cards hr {
     display: none;
   }
 }
 
-.food_card h2 {
+.food-card h2 {
   font-size: 16px;
   line-height: 24px;
   margin-left: 16px;
   margin-top: 16px;
   margin-bottom: 4px;
 }
-.food_card h3 {
+.food-card h3 {
   font-weight: normal;
   font-size: 13px;
   line-height: 21px;
@@ -511,19 +510,19 @@ footer h5 {
   margin-top: 0px;
   height: 21px;
 }
-.food_card h4 {
+.food-card h4 {
   font-weight: bold;
   font-size: 17.5px;
   margin-left: 16px;
 }
-.food_cards {
+.food-cards {
   margin: 0 0px 0 0px;
   padding: 0 8px 0 8px;
 }
-.food_cards .container {
+.food-cards .container {
   padding: 0;
 }
-.food_card {
+.food-card {
   margin: 0 0 16px 0;
   border-bottom: 1px solid rgba(117, 117, 117, 0.2);
   border-left: 0px solid rgba(117, 117, 117, 0.2);
@@ -531,12 +530,12 @@ footer h5 {
   height: 160px;
 }
 
-.food_card:hover {
+.food-card:hover {
   background-color: rgba(117,117,117,0.04);
 }
 
 @media (min-width: 768px) {
-  .food_card {
+  .food-card {
     margin: 0 0 49px 0;
     border-bottom: 1px solid rgba(117, 117, 117, 0.2);
     border-left: 1px solid rgba(117, 117, 117, 0.2);
@@ -546,7 +545,7 @@ footer h5 {
 }
 
 @media (min-width: 1200px) {
-  .food_card {
+  .food-card {
     margin: 0 0 49px 0;
     border-bottom: 1px solid rgba(117, 117, 117, 0.2);
     border-left: 1px solid rgba(117, 117, 117, 0.2);
@@ -555,7 +554,7 @@ footer h5 {
   }
 }
 
-.food_card img {
+.food-card img {
   height: 160px;
   float: right;
   z-index: 9999;
