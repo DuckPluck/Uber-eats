@@ -235,6 +235,9 @@ footer .social img {
   margin-right: 10px;
   margin-bottom: 39px;
 }
+footer .social img:hover {
+  filter:brightness(0.75)
+}
 footer h4 {
   margin: 0 0 23px 0;
   font-weight: normal;
